@@ -26,6 +26,17 @@
             "line": 2
           }
         ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/01-login_hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000
+            }
+          }
+        ],
         "steps": [
           {
             "keyword": "Quando ",
@@ -36,7 +47,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14682317000
+              "duration": 1079569000
             }
           },
           {
@@ -44,11 +55,11 @@
             "name": "o sistema retorna o código 200",
             "line": 7,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:18"
+              "location": "features/steps_definitions/login_steps.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2619000
+              "duration": 1706000
             }
           },
           {
@@ -56,14 +67,14 @@
             "name": "o token da url é gerado criando a sessão",
             "line": 8,
             "output": [
-              "Token: w2fNtZhyuC3ruc3si2T1"
+              "Token: zWsDZTP17B9-DukBHSB9"
             ],
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:22"
+              "location": "features/steps_definitions/login_steps.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 316000
+              "duration": 299000
             }
           }
         ]
@@ -81,17 +92,28 @@
             "line": 2
           }
         ],
+        "before": [
+          {
+            "match": {
+              "location": "features/hooks/01-login_hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000
+            }
+          }
+        ],
         "steps": [
           {
             "keyword": "Quando ",
             "name": "realizar a requisição para fazer logou na API",
             "line": 11,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:26"
+              "location": "features/steps_definitions/login_steps.rb:18"
             },
             "result": {
               "status": "passed",
-              "duration": 744390000
+              "duration": 684416000
             }
           },
           {
@@ -99,11 +121,11 @@
             "name": "o sistema retorna o código 204",
             "line": 12,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:18"
+              "location": "features/steps_definitions/login_steps.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 160000
+              "duration": 96000
             }
           }
         ]

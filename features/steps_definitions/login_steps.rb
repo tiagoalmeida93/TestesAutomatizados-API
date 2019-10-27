@@ -1,17 +1,9 @@
 Quando("realizar a requisição para logar na API") do
   $payload = HTTParty.post(
-    CONFIG["base_url"] + "/sessions",
-    {
-      :headers => {"Content-Type" => "application/json",
-                  "Accept" => "application/vnd.taskmanager.v2"},
-      :body => JSON.generate({
-        "session": {
-          "email": CONFIG["email"],
-          "password": CONFIG["password"]
-        }
-      })
-    } 
-
+    CONFIG["base_url"] + "/sessions", {
+      :headers => @headers,
+      :body => @body
+    }
   )
 end
 
@@ -27,7 +19,6 @@ Quando("realizar a requisição para fazer logou na API") do
   $token = $payload['data']['attributes']['auth-token']
   $payload = HTTParty.delete(
     "https://api-de-tarefas.herokuapp.com/sessions/#{$token}",
-    :headers => {"Content-Type" => "application/json",
-      "Accept" => "application/vnd.taskmanager.v2"}
+    :headers => @headers
   )
 end
