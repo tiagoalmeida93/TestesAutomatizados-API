@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 963197000
+              "duration": 14682317000
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 980000
+              "duration": 2619000
             }
           },
           {
@@ -56,14 +56,14 @@
             "name": "o token da url é gerado criando a sessão",
             "line": 8,
             "output": [
-              "Token: oQTf4MuhX-_dxUkb1vM4"
+              "Token: w2fNtZhyuC3ruc3si2T1"
             ],
             "match": {
               "location": "features/steps_definitions/login_steps.rb:22"
             },
             "result": {
               "status": "passed",
-              "duration": 284000
+              "duration": 316000
             }
           }
         ]
@@ -91,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 894282000
+              "duration": 744390000
             }
           },
           {
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162000
+              "duration": 160000
             }
           }
         ]

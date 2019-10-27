@@ -1,6 +1,6 @@
 Quando("realizar a requisição para logar na API") do
   $payload = HTTParty.post(
-    "https://api-de-tarefas.herokuapp.com/sessions",
+    CONFIG["base_url"] + "/sessions",
     {
       :headers => {"Content-Type" => "application/json",
                   "Accept" => "application/vnd.taskmanager.v2"},
