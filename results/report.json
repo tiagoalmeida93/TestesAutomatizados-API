@@ -1,0 +1,113 @@
+[
+  {
+    "uri": "features/specifications/01-login.feature",
+    "id": "autenticação-api",
+    "keyword": "Funcionalidade",
+    "name": "Autenticação API",
+    "description": "",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@login",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "autenticação-api;efetuando-login-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Efetuando login com sucesso",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar a requisição para logar na API",
+            "line": 6,
+            "match": {
+              "location": "features/steps_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 963197000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o sistema retorna o código 200",
+            "line": 7,
+            "match": {
+              "location": "features/steps_definitions/login_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 980000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "o token da url é gerado criando a sessão",
+            "line": 8,
+            "output": [
+              "Token: oQTf4MuhX-_dxUkb1vM4"
+            ],
+            "match": {
+              "location": "features/steps_definitions/login_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autenticação-api;efetuando-logout",
+        "keyword": "Cenário",
+        "name": "Efetuando logout",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar a requisição para fazer logou na API",
+            "line": 11,
+            "match": {
+              "location": "features/steps_definitions/login_steps.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 894282000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o sistema retorna o código 204",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/login_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
