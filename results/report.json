@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110000
+              "duration": 112000
             }
           }
         ],
@@ -43,11 +43,11 @@
             "name": "realizar a requisição para logar na API",
             "line": 6,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:1"
+              "location": "features/steps_definitions/01-login_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 1079569000
+              "duration": 1345617000
             }
           },
           {
@@ -55,11 +55,11 @@
             "name": "o sistema retorna o código 200",
             "line": 7,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:10"
+              "location": "features/steps_definitions/01-login_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1706000
+              "duration": 1372000
             }
           },
           {
@@ -67,14 +67,14 @@
             "name": "o token da url é gerado criando a sessão",
             "line": 8,
             "output": [
-              "Token: zWsDZTP17B9-DukBHSB9"
+              "JbTQVq5Uq6y23rYB3YfR"
             ],
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:14"
+              "location": "features/steps_definitions/01-login_steps.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 299000
+              "duration": 157000
             }
           }
         ]
@@ -99,21 +99,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40000
+              "duration": 46000
             }
           }
         ],
         "steps": [
           {
             "keyword": "Quando ",
-            "name": "realizar a requisição para fazer logou na API",
+            "name": "realizar a requisição para fazer logout na API",
             "line": 11,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:18"
+              "location": "features/steps_definitions/01-login_steps.rb:13"
             },
             "result": {
               "status": "passed",
-              "duration": 684416000
+              "duration": 815709000
             }
           },
           {
@@ -121,11 +121,11 @@
             "name": "o sistema retorna o código 204",
             "line": 12,
             "match": {
-              "location": "features/steps_definitions/login_steps.rb:10"
+              "location": "features/steps_definitions/01-login_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 96000
+              "duration": 74000
             }
           }
         ]

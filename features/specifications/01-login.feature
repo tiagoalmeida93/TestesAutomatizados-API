@@ -8,5 +8,5 @@ Cenário: Efetuando login com sucesso
  E o token da url é gerado criando a sessão
 
 Cenário: Efetuando logout
- Quando realizar a requisição para fazer logou na API
+ Quando realizar a requisição para fazer logout na API
  Então o sistema retorna o código 204

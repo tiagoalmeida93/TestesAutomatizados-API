@@ -11,4 +11,6 @@ Before '@login' do
     "Content-Type" => "application/json",
     "Accept" => "application/vnd.taskmanager.v2"
   }
+
+  @login = Login.new(@headers, @body)
 end
