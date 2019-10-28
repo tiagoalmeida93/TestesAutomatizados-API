@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 112000
+              "duration": 166000
             }
           }
         ],
@@ -47,7 +47,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1345617000
+              "duration": 1094562000
             }
           },
           {
@@ -55,11 +55,11 @@
             "name": "o sistema retorna o código 200",
             "line": 7,
             "match": {
-              "location": "features/steps_definitions/01-login_steps.rb:5"
+              "location": "features/steps_definitions/01-login_steps.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1372000
+              "duration": 1094000
             }
           },
           {
@@ -67,14 +67,14 @@
             "name": "o token da url é gerado criando a sessão",
             "line": 8,
             "output": [
-              "JbTQVq5Uq6y23rYB3YfR"
+              "o5kiea1qkmucrAk4AnXr"
             ],
             "match": {
-              "location": "features/steps_definitions/01-login_steps.rb:9"
+              "location": "features/steps_definitions/01-login_steps.rb:11"
             },
             "result": {
               "status": "passed",
-              "duration": 157000
+              "duration": 100000
             }
           }
         ]
@@ -99,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46000
+              "duration": 42000
             }
           }
         ],
@@ -109,11 +109,11 @@
             "name": "realizar a requisição para fazer logout na API",
             "line": 11,
             "match": {
-              "location": "features/steps_definitions/01-login_steps.rb:13"
+              "location": "features/steps_definitions/01-login_steps.rb:15"
             },
             "result": {
               "status": "passed",
-              "duration": 815709000
+              "duration": 706744000
             }
           },
           {
@@ -121,11 +121,11 @@
             "name": "o sistema retorna o código 204",
             "line": 12,
             "match": {
-              "location": "features/steps_definitions/01-login_steps.rb:5"
+              "location": "features/steps_definitions/01-login_steps.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 74000
+              "duration": 75000
             }
           }
         ]

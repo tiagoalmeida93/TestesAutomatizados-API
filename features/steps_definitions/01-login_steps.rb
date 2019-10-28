@@ -1,5 +1,7 @@
 Quando("realizar a requisição para logar na API") do
   $payload = @login.post_login
+  pp $payload
+  #expect($payload).to match_json_schema("01-login_schema")
 end
 
 Então("o sistema retorna o código {int}") do |int|
